@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+
+    background-image: url('https://media.istockphoto.com/id/1473254275/photo/lantern-lamp.webp?b=1&s=170667a&w=0&k=20&c=r5B_RsIMpXlUnT8-HRTTSGiVRBgJ7t3gj7DCawWoAHk=');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  
+}
+/* .container{
+    width: 95%;
+   
+} */
+/* navbar***************************
+******************************* */
+.navbar{
+    height: 60px;
+    /* width: 100%; */
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border: 1px solid black;
+    background:whitesmoke;
+    align-items: center;
+    /* margin-left: 30px; */
+    margin-top: 6px;
+
+
+}
+
+
+.img{
+    height: 50px;
+    padding: 1px;
+}
+
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    
+}
+.menu{
+    display: none;
+    
+    
+}
+#display{
+    font-size: 100px;
+    margin-left: 50px;
+
+}
+
+
+/* buttons*********************
+******************************* */
+button{
+    margin: 10px;
+}
+#cBtn{
+    font-size: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+}
+#cBtn:hover{
+    background:orange;
+    color: white;
+
+}
+
+
+
+
+
+#cBtn2{
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+#cBtn2:hover{
+    background:orange;
+    color: white;
+}
+
+
+
+
+
+
+#restBtn{
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+#restBtn:hover{
+    background:orange;
+    color: white;
+}
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+    body {
+     
+    }
+    .navbar{
+    
+    }  
+    .list{
+        display: none;
+    }
+    .menu{
+        display: block;
+     
+
+    }
+    
+  }
